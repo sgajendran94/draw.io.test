@@ -80,6 +80,16 @@ public class Flowchart {
         helper.addStep(text, "End", shape, true);
     }
 
+    @When("the user updates a shape with invalid geometry")
+    public void invalid_geometry() {
+        helper.setInvalidDx("Read B");
+    }
+
+    @Then("the value should auto calibrate to NaN")
+    public void check_invalid_data() {
+        Assert.assertEquals(helper.fetchDx("Read B"), "NaN");
+    }
+
     @And("the user should be able to {} the {} with {}")
     public void the_user_should_be_able_to_update_the_step(String action, String step, String updateStep) throws InterruptedException {
         // Write code here that turns the phrase above into concrete actions
@@ -103,8 +113,6 @@ public class Flowchart {
         Object[] mapKeySet = m1.keySet().toArray();
         Arrays.sort(mapKeySet);
         Arrays.sort(steps);
-        System.out.println(mapKeySet);
-        System.out.println(steps);
         for(String step : steps) {
             Assert.assertEquals(mapKeySet, steps);
         }

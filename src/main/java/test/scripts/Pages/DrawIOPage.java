@@ -122,6 +122,12 @@ public class DrawIOPage {
     @FindBy(xpath = "//div[contains(text(), 'Where')]/following-sibling::div/select")
     public WebElement storageDestination;
 
+    @FindBy(xpath = "//td[contains(text(), 'Dx:')]/following-sibling::td/input")
+    public WebElement dX;
+
+    @FindBy(css = "div.geFormatSection > select")
+    public WebElement editData;
+
     public WebElement generalShape(String shape) {
         return driver.findElements(By.xpath("//a[contains(text(), 'General')]//following-sibling::div/div/a")).get(IntStream.range(0, generalShapeList.length).filter(i -> generalShapeList[i].equals(shape)).findFirst().orElse(-1));
     }

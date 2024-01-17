@@ -80,7 +80,6 @@ public class Helper {
         list.add(printSum);
         list.add(end);
         createSimpleFlowChart(list);
-        Thread.sleep(5000);
         return map;
     }
 
@@ -234,6 +233,33 @@ public class Helper {
         js.executeScript("arguments[0].scrollIntoView();", ele);
         js.executeScript("arguments[0].scrollBy(0,-60);", dioPage.diagramContainer);
         actions.moveToElement(ele).click().sendKeys(Keys.DELETE).build().perform();
+    }
+
+    public void setInvalidDx(String shape) {
+        WebElement ele = map.get(shape);
+        js.executeScript("arguments[0].scrollIntoView();", ele);
+        js.executeScript("arguments[0].scrollBy(0,-60);", dioPage.diagramContainer);
+        actions.moveToElement(ele).click().build().perform();
+        select = new Select(dioPage.editData);
+        select.selectByValue("editGeometry");
+        waitForElementToBeClickable(dioPage.dX);
+        dioPage.dX.sendKeys("mnal");
+        dioPage.dynamicText("Apply", "button").click();
+        waitForElementToBeClickable(ele);
+    }
+
+    public String fetchDx(String shape) {
+        WebElement ele = map.get(shape);
+        js.executeScript("arguments[0].scrollIntoView();", ele);
+        js.executeScript("arguments[0].scrollBy(0,-60);", dioPage.diagramContainer);
+        actions.moveToElement(ele).click().build().perform();
+        select = new Select(dioPage.editData);
+        select.selectByValue("editGeometry");
+        waitForElementToBeClickable(dioPage.dX);
+        String dX = dioPage.dX.getAttribute("value");
+        dioPage.dynamicText("Cancel", "button").click();
+        waitForElementToBeClickable(ele);
+        return dX;
     }
 
 

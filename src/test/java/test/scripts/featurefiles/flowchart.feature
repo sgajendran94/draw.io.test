@@ -41,6 +41,10 @@ Feature: Flowchart using general shapes in draw.io
       | shape     | step   | step_description |
       | Rectangle | Read C | Read CL          |
 
+    Scenario: Negative case for invalid geometry
+      When the user updates a shape with invalid geometry
+      Then the value should auto calibrate to NaN
+
 
 
 
