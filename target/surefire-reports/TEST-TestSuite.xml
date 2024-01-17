@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="116.513" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="webdriver.chrome.driver" value="/Users/infinity/.cache/selenium/chromedriver/mac64/120.0.6099.109/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/infinity/Downloads/CloudBees/draw.io.test/target/test-classes:/Users/infinity/Downloads/CloudBees/draw.io.test/target/classes:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/infinity/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/infinity/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/infinity/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/infinity/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/infinity/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/infinity/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/infinity/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/infinity/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/infinity/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/infinity/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-java/7.1.0/cucumber-java-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-core/7.1.0/cucumber-core-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-gherkin/7.1.0/cucumber-gherkin-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/infinity/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/Users/infinity/.m2/repository/io/cucumber/datatable/7.1.0/datatable-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/docstring/7.1.0/docstring-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/infinity/.m2/repository/io/cucumber/create-meta/6.0.4/create-meta-6.0.4.jar:/Users/infinity/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/infinity/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/infinity/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/infinity/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/infinity/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/infinity/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/infinity/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-testng/7.1.0/cucumber-testng-7.1.0.jar:/Users/infinity/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.3/webdrivermanager-5.6.3.jar:/Users/infinity/.m2/repository/org/slf4j/slf4j-api/2.0.10/slf4j-api-2.0.10.jar:/Users/infinity/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/infinity/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/Users/infinity/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/Users/infinity/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/Users/infinity/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/infinity/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/Users/infinity/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/infinity/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/infinity/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/infinity/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/infinity/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/infinity/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/infinity/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/Users/infinity/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/Users/infinity/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/infinity/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/infinity/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/infinity/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/infinity/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/infinity/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/infinity/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/infinity/.m2/repository/com/github/javafaker/javafaker/0.12/javafaker-0.12.jar:/Users/infinity/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/infinity/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/infinity/Downloads/CloudBees/draw.io.test/target/surefire/surefirebooter-20240117114210334_3.jar /Users/infinity/Downloads/CloudBees/draw.io.test/target/surefire 2024-01-17T11-42-09_856-jvmRun1 surefire-20240117114210334_1tmp surefire_0-20240117114210334_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/infinity/Downloads/CloudBees/draw.io.test/target/test-classes:/Users/infinity/Downloads/CloudBees/draw.io.test/target/classes:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/infinity/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/infinity/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/infinity/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/infinity/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/infinity/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/infinity/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/infinity/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/infinity/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/infinity/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/infinity/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/infinity/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-java/7.1.0/cucumber-java-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-core/7.1.0/cucumber-core-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-gherkin/7.1.0/cucumber-gherkin-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/infinity/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/Users/infinity/.m2/repository/io/cucumber/datatable/7.1.0/datatable-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/docstring/7.1.0/docstring-7.1.0.jar:/Users/infinity/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/infinity/.m2/repository/io/cucumber/create-meta/6.0.4/create-meta-6.0.4.jar:/Users/infinity/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/infinity/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/infinity/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/infinity/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/infinity/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/infinity/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/infinity/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/infinity/.m2/repository/io/cucumber/cucumber-testng/7.1.0/cucumber-testng-7.1.0.jar:/Users/infinity/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.3/webdrivermanager-5.6.3.jar:/Users/infinity/.m2/repository/org/slf4j/slf4j-api/2.0.10/slf4j-api-2.0.10.jar:/Users/infinity/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/infinity/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/Users/infinity/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/Users/infinity/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/Users/infinity/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/infinity/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/Users/infinity/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/infinity/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/infinity/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/infinity/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/infinity/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/infinity/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/infinity/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/Users/infinity/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/Users/infinity/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/infinity/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/infinity/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/infinity/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/infinity/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/infinity/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/infinity/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/infinity/.m2/repository/com/github/javafaker/javafaker/0.12/javafaker-0.12.jar:/Users/infinity/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/infinity/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/infinity"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/infinity/Downloads/CloudBees/draw.io.test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/infinity/Downloads/CloudBees/draw.io.test/target/surefire/surefirebooter-20240117114210334_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.2+7"/>
+    <property name="user.name" value="infinity"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/infinity/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/_n/4y2v64wx0vlgl2rkjrq0ff5w0000gn/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/infinity/Downloads/CloudBees/draw.io.test"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/infinity/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;create a complete flowchart&quot;, &quot;Optional[Flowchart using general shapes in draw.io]&quot;](1)" classname="test.scripts.TestRunner" time="18.831">
+    <system-out><![CDATA[
+Scenario: create a complete flowchart           # src/test/java/test/scripts/featurefiles/flowchart.feature:11
+  Given the user has a flowchart in progress    # test.scripts.stepdefinitions.Flowchart.the_user_has_a_flowchart_in_progress()
+[Ljava.lang.Object;@3a00237d
+[Ljava.lang.String;@bc88295
+  Then all shapes and steps should be reflected # test.scripts.stepdefinitions.Flowchart.all_steps_should_be_reflected()
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483}) on port 1668
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan. 17, 2024 11:42:14 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add, update and delete a step in flowchart&quot;, &quot;Optional[Flowchart using general shapes in draw.io]&quot;](2)" classname="test.scripts.TestRunner" time="41.363">
+    <system-out><![CDATA[
+Scenario Outline: Add, update and delete a step in flowchart     # src/test/java/test/scripts/featurefiles/flowchart.feature:22
+  Given the user has a flowchart in progress                     # test.scripts.stepdefinitions.Flowchart.the_user_has_a_flowchart_in_progress()
+  When the user adds a new Read All adjacent Calculate C = A + B # test.scripts.stepdefinitions.Flowchart.user_adds_new_step_adjacent_existing_step(java.lang.String,java.lang.String)
+  Then the Read All should be added to the appropriate point     # test.scripts.stepdefinitions.Flowchart.the_step_should_be_added_to_the_appropriate_point(java.lang.String)
+  And the user should be able to update the Read All with Read W # test.scripts.stepdefinitions.Flowchart.the_user_should_be_able_to_update_the_step(java.lang.String,java.lang.String,java.lang.String)
+  And the user should be able to delete the Read All with Read W # test.scripts.stepdefinitions.Flowchart.the_user_should_be_able_to_update_the_step(java.lang.String,java.lang.String,java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483}) on port 31541
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan. 17, 2024 11:42:31 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add, update and delete a shape in flowchart&quot;, &quot;Optional[Flowchart using general shapes in draw.io]&quot;](3)" classname="test.scripts.TestRunner" time="27.801">
+    <system-out><![CDATA[
+Scenario Outline: Add, update and delete a shape in flowchart          # src/test/java/test/scripts/featurefiles/flowchart.feature:32
+  Given the user has a flowchart in progress                           # test.scripts.stepdefinitions.Flowchart.the_user_has_a_flowchart_in_progress()
+  When the user adds a new Rectangle with Read C                       # test.scripts.stepdefinitions.Flowchart.the_user_adds_a_new_shape_with_step_description(java.lang.String,java.lang.String)
+  Then the Read C should be added to the appropriate point             # test.scripts.stepdefinitions.Flowchart.the_step_should_be_added_to_the_appropriate_point(java.lang.String)
+  And the user should have an option to update the Ellipse with Read C # test.scripts.stepdefinitions.Flowchart.the_user_should_have_an_option_to_update_the_shape_with_step(java.lang.String,java.lang.String,java.lang.String)
+  And the user should have an option to delete the Ellipse with Read C # test.scripts.stepdefinitions.Flowchart.the_user_should_have_an_option_to_update_the_shape_with_step(java.lang.String,java.lang.String,java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483}) on port 17529
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan. 17, 2024 11:43:12 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add, update and delete a text in flowchart&quot;, &quot;Optional[Flowchart using general shapes in draw.io]&quot;](4)" classname="test.scripts.TestRunner" time="27.426">
+    <system-out><![CDATA[
+Scenario Outline: Add, update and delete a text in flowchart     # src/test/java/test/scripts/featurefiles/flowchart.feature:42
+  Given the user has a flowchart in progress                     # test.scripts.stepdefinitions.Flowchart.the_user_has_a_flowchart_in_progress()
+  When the user adds a new Rectangle with Read C                 # test.scripts.stepdefinitions.Flowchart.the_user_adds_a_new_shape_with_step_description(java.lang.String,java.lang.String)
+  Then the Read C should be added to the appropriate point       # test.scripts.stepdefinitions.Flowchart.the_step_should_be_added_to_the_appropriate_point(java.lang.String)
+  And user should be able to update the text Read C with Read CL # test.scripts.stepdefinitions.Flowchart.update_text(java.lang.String,java.lang.String)
+  And user should be able to delete the text Read CL             # test.scripts.stepdefinitions.Flowchart.delete_text(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483}) on port 2382
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan. 17, 2024 11:43:40 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
